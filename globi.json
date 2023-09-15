@@ -1,0 +1,62 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://datadryad.org/stash/downloads/file_stream/334116",
+    "dcterms:bibliographicCitation" : "Schwarz, Benjamin et al. (2021). Data from: Temporal scale-dependence of plant-pollinator networks [Dataset]. Dryad. https://doi.org/10.5061/dryad.qz612jmbp",
+    "delimiter" : ",",
+    "interactionTypeName" : "pollinates",
+    "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002455",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "referenceCitation",
+        "titles" : "study",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "cdate",
+        "datatype" : "string"
+      }, {
+        "name" : "sSite",
+        "titles" : "sSite",
+        "datatype" : "string"
+      }, {
+        "name" : "allSites",
+        "titles" : "allSites",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "lower",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "higher",
+        "datatype" : "string"
+      }, {
+        "name" : "freq",
+        "titles" : "freq",
+        "datatype" : "string"
+      }, {
+        "name" : "sgrain",
+        "titles" : "sgrain",
+        "datatype" : "string"
+      }, {
+        "name" : "sgrainID",
+        "titles" : "sgrainID",
+        "datatype" : "string"
+      }, {
+        "name" : "largestgrain",
+        "titles" : "largestgrain",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
